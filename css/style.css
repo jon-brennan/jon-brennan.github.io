@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'AileronTest';
+    src: url('../fonts/aileron-black-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AileronTest';
+    src: url('../fonts/aileron-bold-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AileronTest';
+    src: url('../fonts/aileron-light-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AileronTest';
+    src: url('../fonts/aileron-thinitalic-webfont.woff2') format('woff2'),
+         url('../fonts/aileron-thinitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+body {
+	background: #1b1b1b;
+	color: white;
+	font-family: "AileronTest", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+section.about {
+	position: relative;
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 900;
+	font-style: normal;
+	letter-spacing: -0.02em;
+	margin-bottom: -8px;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+}
+
+h4 {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 200;
+	margin: 20px 0 22px;
+}
+
+a {
+	color: #E7B107;
+	text-decoration: none;
+}
