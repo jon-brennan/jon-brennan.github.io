@@ -69,4 +69,24 @@ h4 {
 a {
 	color: #E7B107;
 	text-decoration: none;
+	position: relative;
+}
+
+a::after {
+	content: '';
+    background: #E7B107;
+    height: 2px;
+    position: absolute;
+    width: 0%;
+    top: 100%;
+    left: 0px;
+    transition: width 0.2s ease-in-out;
+    transition-timing-function: cubic-bezier(0.420, 0.000, 0.210, 1.000);
+}
+
+a:hover::after {
+	content: '';
+	width: 100%;
+	position: absolute;
+
 }
